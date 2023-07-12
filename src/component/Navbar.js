@@ -37,7 +37,7 @@ const Navbar = () => {
       setExpire(decode.exp);
     } catch (error) {
       if (error.response) {
-        navigate("/login");
+        navigate(`${API_URL}/login`);
       }
     }
   };
@@ -77,7 +77,7 @@ const Navbar = () => {
     refreshToken();
     if (isError === false && isPending === false) {
       localStorage.removeItem("token");
-      navigate("/login");
+      navigate(`${API_URL}/login`);
       window.location.reload();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
