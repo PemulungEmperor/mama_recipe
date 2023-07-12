@@ -5,9 +5,8 @@ Welcome to mama recipe! This is project is Responsive web application to search 
 ![image](https://github.com/PemulungEmperor/ankasa_ticketing/assets/76174871/c420cc8d-287a-4171-a744-1488fdc8c774)
 
 
-## Demo & API Documentation
+## API Documentation
   
-  - [Mama Recipe](https://mama-recipe-blush.vercel.app/)
   - [Check Ankasa API Repo](https://github.com/PemulungEmperor/mama_recipe_express)
 
 ## Technologies
