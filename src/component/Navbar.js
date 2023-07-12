@@ -25,7 +25,7 @@ const Navbar = () => {
 
   const refreshToken = async () => {
     try {
-      const response = await axios.get(`${API_URL}/token`);
+      const response = await axios.get(`${API_URL}/token`, { mode: "no-cors" });
       // setToken(response.data.accessToken)
       const decode = jwt_decode(response.data.accessToken);
       localStorage.setItem("token", response.data.accessToken);
