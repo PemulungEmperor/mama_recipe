@@ -42,28 +42,28 @@ const Navbar = () => {
     }
   };
 
-  const axiosJwt = axios.create();
+  // const axiosJwt = axios.create();
 
-  axiosJwt.interceptors.request.use(
-    async (config) => {
-      const currentData = new Date();
-      if (expire * 1000 < currentData.getTime()) {
-        const response = await axios.get(`${API_URL}/token`);
-        config.headers.Authorization = `Bearer ${response.data.accessToken}`;
-        // setToken(response.data.accessToken)
-        const decode = jwt_decode(response.data.accessToken);
-        setUserId(decode.userId);
-        setName(decode.name);
-        setAvatar(decode.photo);
-        setIsLogin(true);
-        setExpire(decode.exp);
-      }
-      return config;
-    },
-    (error) => {
-      return Promise.reject();
-    }
-  );
+  // axiosJwt.interceptors.request.use(
+  //   async (config) => {
+  //     const currentData = new Date();
+  //     if (expire * 1000 < currentData.getTime()) {
+  //       const response = await axios.get(`${API_URL}/token`);
+  //       config.headers.Authorization = `Bearer ${response.data.accessToken}`;
+  //       // setToken(response.data.accessToken)
+  //       const decode = jwt_decode(response.data.accessToken);
+  //       setUserId(decode.userId);
+  //       setName(decode.name);
+  //       setAvatar(decode.photo);
+  //       setIsLogin(true);
+  //       setExpire(decode.exp);
+  //     }
+  //     return config;
+  //   },
+  //   (error) => {
+  //     return Promise.reject();
+  //   }
+  // );
 
   // Logout
   const goLogout = async (e) => {
