@@ -45,7 +45,22 @@ Start the server
   npm run start
 ```
 If you want to use the features locally make sure you already setting the environment
-    
+
+## More Screenshoot
+
+| <h3>Login Page</h3>  | <h3>Home Page</h3> |
+| ------------- | ------------- |
+| <img align="center" width="500" src="https://res.cloudinary.com/dwc1snd78/image/upload/v1689248403/readmegithubpurpose/screencapture-localhost-3000-login-2023-07-13-17_20_08_djdikj.png">   | <img align="center" width="500" src="https://res.cloudinary.com/dwc1snd78/image/upload/v1689248402/readmegithubpurpose/home_sgveym.png">   |
+
+| <h3>Profile Page</h3>  | <h3>Add Recipe Page</h3> |
+| ------------- | ------------- |
+| <img align="center" width="500" src="https://res.cloudinary.com/dwc1snd78/image/upload/v1689248407/readmegithubpurpose/screencapture-localhost-3000-profile-2-2023-07-13-17_15_39_dsosxh.png">   | <img align="center" width="500" src="https://res.cloudinary.com/dwc1snd78/image/upload/v1689248416/readmegithubpurpose/screencapture-mama-recipe-blush-vercel-app-add-recipe-1-2023-07-13-16_25_17_wfjq5z.png">   |
+
+| <h3>Register Page</h3>  | <h3>Search Page</h3> |
+| ------------- | ------------- |
+| <img align="center" width="500" src="https://res.cloudinary.com/dwc1snd78/image/upload/v1689248411/readmegithubpurpose/screencapture-localhost-3000-register-2023-07-13-17_20_22_hj0h5d.png">   | <img align="center" width="500" src="https://res.cloudinary.com/dwc1snd78/image/upload/v1689248419/readmegithubpurpose/searchresult_ufupou.png">   |
+
+
 
 ## Author
 [@PemulungEmperor](https://github.com/PemulungEmperor) 
